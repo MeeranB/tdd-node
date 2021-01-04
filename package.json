@@ -1,0 +1,16 @@
+{
+  "name": "tdd-node",
+  "version": "1.0.0",
+  "description": "Repo to learn to use TDD with tape for node",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "supertest": "^6.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.1.0"
+  }
+}
